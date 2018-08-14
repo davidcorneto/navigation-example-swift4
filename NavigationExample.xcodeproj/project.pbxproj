@@ -12,6 +12,7 @@
 		AC484140212273350025CBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC48413E212273350025CBF4 /* Main.storyboard */; };
 		AC484142212273380025CBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC484141212273380025CBF4 /* Assets.xcassets */; };
 		AC484145212273380025CBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC484143212273380025CBF4 /* LaunchScreen.storyboard */; };
+		AC48414D212276ED0025CBF4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48414C212276ED0025CBF4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC484141212273380025CBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC484144212273380025CBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC484146212273380025CBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC48414C212276ED0025CBF4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AC484141212273380025CBF4 /* Assets.xcassets */,
 				AC484143212273380025CBF4 /* LaunchScreen.storyboard */,
 				AC484146212273380025CBF4 /* Info.plist */,
+				AC48414C212276ED0025CBF4 /* SecondViewController.swift */,
 			);
 			path = NavigationExample;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC48414D212276ED0025CBF4 /* SecondViewController.swift in Sources */,
 				AC48413D212273350025CBF4 /* ViewController.swift in Sources */,
 				AC48413B212273350025CBF4 /* AppDelegate.swift in Sources */,
 			);
